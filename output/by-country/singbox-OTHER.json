@@ -6,19 +6,19 @@
     {
       "type": "trojan",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "www.calmlunch.com",
+      "server": "104.21.61.154",
       "server_port": 443,
-      "password": "humanity",
+      "password": "624209bb-8216-45fe-bbe0-50132ec63162",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
+        "server_name": "ot2.hyas.space",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/assignment",
+        "path": "/x7f9k2m4p8",
         "headers": {
-          "Host": "www.calmlunch.com"
+          "Host": "ot2.hyas.space"
         }
       }
     },
