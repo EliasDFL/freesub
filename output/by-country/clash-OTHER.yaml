@@ -5,16 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.61.154
+  server: 104.16.71.213
   port: 443
   udp: true
   type: trojan
-  password: 624209bb-8216-45fe-bbe0-50132ec63162
-  sni: ot2.hyas.space
+  password: humanity
+  sni: www.calmlunch.com
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /x7f9k2m4p8
+    path: /assignment
 proxy-groups:
 - name: PROXIES
   type: select
