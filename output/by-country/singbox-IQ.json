@@ -5,20 +5,27 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe",
-      "server": "129.151.64.169",
-      "server_port": 31867,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "188.114.97.7",
+      "server_port": 443,
+      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true
+        "server_name": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/files",
+        "path": "/",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
         }
       }
     },
@@ -27,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 亚美尼亚 (Armenia) 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
