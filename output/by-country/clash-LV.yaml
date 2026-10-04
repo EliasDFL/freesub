@@ -4,29 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇩 印尼 (Indonesia) 01 - xiaohe
-  server: 103.172.197.2
-  port: 29172
+- name: 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
+  server: latinki.pumpkinpie.study
+  port: 443
   udp: true
   type: vless
-  uuid: 3977434d-6a9b-4858-8ced-80326ba5e367
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ
-  servername: aws.amazon.com
+    public-key: wHTq_owme8N6237B37GhneBcNJQtzRdIFouRkSscgnQ
+    short-id: 40fac5d64bc6a540
+  servername: latinki.pumpkinpie.study
   client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇩 印尼 (Indonesia) 01 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
 rules:
 - MATCH,PROXIES
